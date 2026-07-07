@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Home Workout Plan</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">6-week home plan</p>
+          <h1>Build muscle, trim your waist, and feel stronger</h1>
+          <p class="hero-copy">
+            This plan uses one 9 lb dumbbell, bodyweight, and a backpack so you can train at home for about 60 minutes, 5 to 6 days a week.
+          </p>
+        </div>
+      </header>
+
+      <section class="card summary-card">
+        <div>
+          <h2>Your quick targets</h2>
+          <ul>
+            <li>Train 5–6 days/week</li>
+            <li>Keep workouts around 60 minutes</li>
+            <li>Walk daily and hit 8k–10k steps if possible</li>
+            <li>Eat protein at every meal</li>
+          </ul>
+        </div>
+        <div class="stats">
+          <div><strong>Weight</strong><span>63.8 kg</span></div>
+          <div><strong>Protein goal</strong><span>100–125g/day</span></div>
+          <div><strong>Plan length</strong><span>6 weeks</span></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-title-row">
+          <h2>Today’s workout</h2>
+          <span id="today-label" class="pill"></span>
+        </div>
+        <div id="today-session"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-title-row">
+          <h2>Weekly schedule</h2>
+          <span class="pill">60 min each</span>
+        </div>
+        <div id="weekly-schedule"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-title-row">
+          <h2>Hydration tracker</h2>
+          <span class="pill">Stay fueled</span>
+        </div>
+        <div id="hydration"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-title-row">
+          <h2>6-week progression</h2>
+          <span class="pill">Simple and steady</span>
+        </div>
+        <div id="roadmap"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-title-row">
+          <h2>Diet basics</h2>
+          <span class="pill">Fuel the change</span>
+        </div>
+        <div id="diet"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-title-row">
+          <h2>Mini tracker</h2>
+          <span class="pill">Keep it simple</span>
+        </div>
+        <ul class="checklist" id="tracker"></ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
